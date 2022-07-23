@@ -20,4 +20,5 @@ The Library Management System will have the following listed features:
  - return book
 
 # How to run
-start main_lms.py
+1. change the mysql configuration (host, user, password)
+2. start main_lms.py
