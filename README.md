@@ -18,3 +18,6 @@ The Library Management System will have the following listed features:
 3. Book Renting Management
  - borrow book
  - return book
+
+# How to run
+start main_lms.py
