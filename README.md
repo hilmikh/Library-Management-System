@@ -6,4 +6,18 @@ Python is an interpreted, high-level, general-purpose programming language.
 Python can be used in database applications.
 
 # MySQL
-MySQL is one of the most common open source databases
+MySQL is one of the most common open source database management system
+
+The Library Management System will have the following listed features:
+1. User Management
+2. Book Catalogue Management
+3. Book Renting Management
+
+1. User Management
+ - register new user
+ - show registered user
+2. Book Catalogue Management
+ - register new book
+3. Book Renting Management
+ - borrow book
+ - return book
