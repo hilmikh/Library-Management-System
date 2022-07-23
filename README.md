@@ -11,10 +11,6 @@ MySQL is one of the most common open source database management system
 # Features
 The Library Management System will have the following listed features:
 1. User Management
-2. Book Catalogue Management
-3. Book Renting Management
-
-1. User Management
  - register new user
  - show registered user
 2. Book Catalogue Management
