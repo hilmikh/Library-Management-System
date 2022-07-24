@@ -15,7 +15,7 @@ def start():
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="hilmi179"
+            password="pass"
             )
         mycursor = mydb.cursor()
         print("MySQL Database connection successful")
