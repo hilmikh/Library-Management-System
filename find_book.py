@@ -6,7 +6,7 @@ import pandas as pd
 import mysql.connector  
 
 def find_book():
-    book_title = str(input('input book title:'))
+    book_title = str(input('input book title: '))
     
     try:
         mydb = mysql.connector.connect(

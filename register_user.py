@@ -27,7 +27,9 @@ def register_user():
           """
         mycursor.execute(query_register_user)  #register new user based on input
         mydb.commit()
+        print("...................................")
         print("user registration successful")
+        print("...................................")
     except Exception as err_user_regis:
         print(str(err_user_regis))
 

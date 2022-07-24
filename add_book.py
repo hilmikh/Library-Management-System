@@ -26,7 +26,9 @@ def add_book():
           """
         mycursor.execute(query_add_book)  #register new book based on input
         mydb.commit()
+        print("...................................")
         print("book registration successful")
+        print("...................................")
     except Exception as err_book_add:
         print(str(err_book_add))
 

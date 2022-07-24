@@ -32,7 +32,9 @@ def borrow_book():
         """
         mycursor.execute(query_reduce_stock) #reduce stock by 1 when borrowed
         mydb.commit()
+        print("...................................")
         print("borrow successful")
+        print("...................................")
     except Exception as err_borrow_book:
         print(str(err_borrow_book))
 

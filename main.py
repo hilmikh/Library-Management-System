@@ -73,18 +73,18 @@ def start():
         print(str(error_initialize, " exiting program..."))
         exit()
 
-    print(".....Library Management System.....\n"
-          "  1. Register New User\n"
-          "  2. Register New Book\n"
-          "  3. Borrow Book\n"
-          "  4. Return Book\n"
-          "  5. Show Registered User\n"
-          "  6. Show Book Catalogue\n"
-          "  7. Show Book Borrowing Info\n"
-          "  8. Find Book\n"
-          "  9. Exit\n"
-          )
     while True:
+        print(".....Library Management System.....\n"
+              "  1. Register New User\n"
+              "  2. Register New Book\n"
+              "  3. Borrow Book\n"
+              "  4. Return Book\n"
+              "  5. Show Registered User\n"
+              "  6. Show Book Catalogue\n"
+              "  7. Show Book Borrowing Info\n"
+              "  8. Find Book\n"
+              "  9. Exit\n"
+              )
         pick_function = int(input("pick a function (1-9):  "))
         print("...................................")
         if pick_function<1 or pick_function>9:

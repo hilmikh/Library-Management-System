@@ -30,7 +30,9 @@ def return_book():
           """
         mycursor.execute(query_increase_stock) #increase stock by 1 when borrowed
         mydb.commit()
+        print("...................................")
         print("return successful")
+        print("...................................")
     except Exception as err_return_book:
         print(str(err_return_book))
 
