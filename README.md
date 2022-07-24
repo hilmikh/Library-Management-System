@@ -23,22 +23,11 @@ The purpose of this project is to fulfill the 4th assignment for the python subj
 9. Create show borrow data function (show_borrow.py), which will print "borrow" table in mysql using a combination of "SELECT *.." sql command and Pandas library
 10. Create book finding function (find_book.py), which receive input of the book title and will print the searched book title in "book" table in mysql using a combination of "SELECT .. WHERE.." sql command and Pandas library
 
-## Features
-The Library Management System will have the following listed features:
-1. User Management
- - register new user
- - show registered user
-2. Book Catalogue Management
- - register new book
-3. Book Renting Management
- - borrow book
- - return book
-
 ## How to run
 1. change the mysql configuration (host, user, password) in every py file
 2. start main.py
 
-##Test Case Screenshot
+## Test Case Screenshot
 1. User Management:
    - register new user
    - show registered user
@@ -46,11 +35,11 @@ The Library Management System will have the following listed features:
 2. Book Catalogue Management
    - register new book
    - show registered book
- ![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/book_regis.PNG)
+   - ![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/book_regis.PNG)
 3. Book Renting Management
- - borrow book
- ![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/book_borrow.PNG)
- - return book
- ![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/book_return.PNG)
+   - borrow book
+   - ![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/book_borrow.PNG)
+   - return book
+   - ![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/book_return.PNG)
 4. Find Book
- ![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/find_book.PNG)
+   - ![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/find_book.PNG)
