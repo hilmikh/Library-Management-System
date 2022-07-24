@@ -36,4 +36,4 @@ The Library Management System will have the following listed features:
 
 ## How to run
 1. change the mysql configuration (host, user, password) in every py file
-2. start main_lms.py
+2. start main.py
