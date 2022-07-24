@@ -31,7 +31,7 @@ The purpose of this project is to fulfill the 4th assignment for the python subj
 1. User Management:
    - register new user
    - show registered user
-![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/user_regis.PNG)
+   - ![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/user_regis.PNG)
 2. Book Catalogue Management
    - register new book
    - show registered book
