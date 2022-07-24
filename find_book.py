@@ -12,7 +12,7 @@ def find_book():
         mydb = mysql.connector.connect(
           host="localhost",
           user="root",
-          password="pass"
+          password="hilmi179"
           )
         mycursor = mydb.cursor()
         

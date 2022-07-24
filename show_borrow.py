@@ -10,7 +10,7 @@ def show_borrow():
         mydb = mysql.connector.connect(
           host="localhost",
           user="root",
-          password="pass"
+          password="hilmi179"
           )
         mycursor = mydb.cursor()
         

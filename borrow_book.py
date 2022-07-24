@@ -7,16 +7,16 @@
 import mysql.connector  
 
 def borrow_book():
-    id_user = int(input('input user id:'))
-    user_name = str(input('input name:'))
-    book_id = int(input('input book id:'))
-    book_title = str(input('input book title:'))
+    id_user = int(input('input user id: '))
+    user_name = str(input('input name: '))
+    book_id = int(input('input book id: '))
+    book_title = str(input('input book title: '))
     
     try:
         mydb = mysql.connector.connect(
           host="localhost",
           user="root",
-          password="pass"
+          password="hilmi179"
           )
         mycursor = mydb.cursor()
         
@@ -25,13 +25,14 @@ def borrow_book():
         VALUES({id_user}, '{user_name}', {book_id}, '{book_title}', CURDATE(), DATE_ADD(CURDATE(), INTERVAL 3 DAY));
         """
         mycursor.execute(query_add_borrow) #input borrowing data
-    
         query_reduce_stock = f"""
         UPDATE lms.book
         SET stock = GREATEST(0, stock - 1)
         WHERE book_id = {book_id};
         """
         mycursor.execute(query_reduce_stock) #reduce stock by 1 when borrowed
+        mydb.commit()
+        print("borrow successful")
     except Exception as err_borrow_book:
         print(str(err_borrow_book))
 

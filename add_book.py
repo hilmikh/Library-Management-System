@@ -7,16 +7,16 @@
 import mysql.connector  
 
 def add_book():
-    book_id = int(input('input book id:'))
-    book_title = str(input('input book title:'))
-    genre = str(input('input book genre:'))
-    stock = int(input('input book stock:'))  #data input
+    book_id = int(input('input book id: '))
+    book_title = str(input('input book title: '))
+    genre = str(input('input book genre: '))
+    stock = int(input('input book stock: '))  #data input
 
     try:
         mydb = mysql.connector.connect(
           host="localhost",
           user="root",
-          password="pass"
+          password="hilmi179"
           )
         mycursor = mydb.cursor()
         
@@ -25,6 +25,8 @@ def add_book():
           VALUES({book_id}, '{book_title}', '{genre}', {stock});
           """
         mycursor.execute(query_add_book)  #register new book based on input
+        mydb.commit()
+        print("book registration successful")
     except Exception as err_book_add:
         print(str(err_book_add))
 
