@@ -37,3 +37,20 @@ The Library Management System will have the following listed features:
 ## How to run
 1. change the mysql configuration (host, user, password) in every py file
 2. start main.py
+
+##Test Case Screenshot
+1. User Management:
+   - register new user
+   - show registered user
+![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/user_regis.PNG)
+2. Book Catalogue Management
+   - register new book
+   - show registered book
+ ![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/book_regis.PNG)
+3. Book Renting Management
+ - borrow book
+ ![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/book_borrow.PNG)
+ - return book
+ ![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/book_return.PNG)
+4. Find Book
+ ![alt text](https://github.com/hilmikh/Library-Management-System/blob/main/screenshot/find_book.PNG)
